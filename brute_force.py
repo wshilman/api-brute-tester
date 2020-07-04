@@ -13,8 +13,8 @@ urls = [os.getenv('url')]* int(times)
 
 
 out = []
-CONNECTIONS = 100
-TIMEOUT = 5
+CONNECTIONS = 200
+TIMEOUT = 4
 
 
 def load_url(url, timeout):
